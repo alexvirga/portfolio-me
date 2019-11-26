@@ -1,8 +1,8 @@
 import React from 'react'
 
-const AbsoluteWrapper = ({children}) => {
+const AbsoluteWrapper = ({ children }) => {
     return(
-        <div className="position-absolute w-100">
+        <div className="position-absolute">
             {children}
         </div>
     )
