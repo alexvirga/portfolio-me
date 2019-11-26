@@ -1,0 +1,17 @@
+import React, {Component} from 'react';
+
+import './App.css';
+
+
+
+class About extends Component {
+  render() {
+    return (
+      <div class="content-page">
+        <h1 class="page-content"> About Page</h1>
+      </div>
+    )
+  }
+}
+
+export default About
