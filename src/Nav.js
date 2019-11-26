@@ -1,25 +1,26 @@
 import React, {Component} from 'react';
 
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom'
 
 class Nav extends Component {
     
   render() {
-    const navStyle = {
-        color: 'white',
-        textDecoration: 'none'
-    }
+
 
     return (
-      <nav>
-          <h1 style={{fontSize: "30px"}}> ALEX VIRGA </h1>
+      <div className="nav-container">
+        <h1 className='nav-name'> ALEX VIRGA </h1>  
         <ul className="nav-links">
-            <Link style={navStyle} to='/about'><li>About Me</li></Link>
-            <Link style={navStyle} to='/projects'><li>Projects</li></Link>
-            <Link style={navStyle} to='/experience'><li>Experience</li></Link>
+            <NavLink className='nav-style' to='/about'><li style={{padding: "5px"}}>About Me</li></NavLink>
+            <NavLink className='nav-style' to='/projects'><li style={{padding: "5px"}}>Projects</li></NavLink>
+            <NavLink className='nav-style' to='/experience'><li style={{padding: "5px"}}>Experience</li></NavLink>
         </ul>
-      </nav>
+        
+
+        
+      
+      </div>
     )
   }
 }
