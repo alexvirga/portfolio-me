@@ -1,13 +1,13 @@
-import React, { useContext } from "react";
+import React from "react";
 
 import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
 import Projects from "./Projects";
 import Experience from "./Experience";
-import {useTransition, animated, interpolate, useSpring} from 'react-spring';
+import {useTransition, animated} from 'react-spring';
 
-import { Route, Switch, __RouterContext, useLocation } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 
 export default function App() {
   const location = useLocation()
@@ -47,12 +47,7 @@ export default function App() {
 
 
 
-  
-  const Home = () => (
-    <div>
-      <h1> Home Page</h1>
-    </div>
-  )
+
 
 
 
