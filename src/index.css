@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Circular-header";
+  src: url("./fonts/CircularSpUIm40-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circular-links";
+  src: url("./fonts/CircularSpUIm5-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circular-navname";
+  src: url("./fonts/CircularSpUI-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Circular-p";
+  src: url("./fonts/CircularSpUI-Book.otf") format("opentype");
+}
+
+
+
