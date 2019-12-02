@@ -65,7 +65,7 @@ class Spotify extends Component {
             After moving into the professional world, that balance was thrown
             off. I was left searching for that creative, yet analytical part of
             my life again. I missed waking up and counting down the minutes
-            until I could get back to work. Becoming a developer has given me
+            until I could get back to work. I quit my job and began coding 16+ hours a day... I loved every second of it. Becoming a developer has given me
             the tools to succeed not only in my professional life, but my
             personal life as well.
             <br />
@@ -143,7 +143,7 @@ class Spotify extends Component {
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
             <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Learn</p>
             
-            <p style={{fontFamily: "Circular-p"}}> At work, at home, wherever!</p>
+            <p style={{fontFamily: "Circular-p"}}> At work, at home, wherever</p>
             </div>
 
 
