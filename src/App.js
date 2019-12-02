@@ -30,6 +30,7 @@ export default function App() {
     <animated.div key={key} style={props} className="animated-div">
       <Switch location={location}>
         <Route exact path="/"  component={About} />
+        <Route exact path="/portfolio"  component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           {/* <Route exact path="/experience" component={Experience} /> */}
