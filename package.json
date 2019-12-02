@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexvirga.com/",
+  "homepage": "https://alexvirga.github.io/Portfolio/",
   "dependencies": {
     "bootstrap": "^4.4.0",
     "react": "^16.12.0",
