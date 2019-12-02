@@ -32,7 +32,7 @@ class About extends Component {
         <div style={{width:"100%", display:"flex", justifyContent: "center", paddingBottom: "30px"}}>
           <img
               style={{ marginTop: "20px",height: "200px", width: "200px", borderRadius: "50%" }}
-              src="IMG_0650.png"/>
+              src="./public/IMG_0650.png"/>
         </div>
         </div>
 
