@@ -106,16 +106,81 @@
 /* ---------------PROJECTS PAGE --------------------*/
 
 
-.content-page-projects {
+
+
+.projects-page {
+  
   display: flex;
-  width: 70vw;
   flex-direction: column;
-  justify-content: space;
-  height: 100vh;
-  background: rgb(234, 228, 220);
+  width: 70vw;
   border-right-style: solid;
   border-right-width: 1px;
+
 }
+
+
+.projects-page-content-header {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  color: rgb(23, 0, 87);
+  font-family: "Circular-header";
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.projects-header-subtitle{
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  justify-content: center;
+  width: 100%;
+  color: rgb(23, 0, 87);
+  font-family: "Circular-p";
+  font-size: 15px;
+}
+
+
+.projects-header-container{
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: column;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-page-body-header {
+  font-family: 'Circular-header';
+  color: black;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.projects-page-p{
+  font-family: "Circular-p";
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+}
+
+.projects-show-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  background-color: #efefef
+
+}
+
 
 /* ---------------EXPERIENCE PAGE --------------------*/
 
@@ -340,12 +405,13 @@
   height: 70px;
   display: flex;
   justify-content: center;
-  margin-top: 3vh
+  margin-top: 3vh;
 }
 
 .spotify-images-footer{
   height: 50px;
   display: flex;
+
   margin-top: 4px; 
   width: 100%;
   justify-content: space-evenly
