@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 class Nav extends Component {
   backgroundChange = () => {
@@ -37,18 +37,18 @@ class Nav extends Component {
       <div className={this.backgroundChange()}>
         <h1 className={this.nameChange()}> ALEX VIRGA </h1>
         <div className="nav-links">
-          <NavLink className={this.textChange()} to="/about">
+          <Link className={this.textChange()} to="/about">
             <li style={{ padding: "5px" }}>About Me</li>
-          </NavLink>
-          <NavLink className={this.textChange()} to="/projects">
+          </Link>
+          <Link className={this.textChange()} to="/projects">
             <li style={{ padding: "5px" }}>Projects</li>
-          </NavLink>
+          </Link>
           {/* <NavLink className={this.textChange()} to="/experience">
             <li style={{ padding: "5px" }}>Experience</li>
           </NavLink> */}
-          <NavLink className={this.textChange()} to="/spotify">
+          <Link className={this.textChange()} to="/spotify">
             <li style={{ padding: "5px" }}>Spotify</li>
-          </NavLink>
+          </Link>
         </div>
         <div className="socials">
           <a
