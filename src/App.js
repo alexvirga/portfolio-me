@@ -32,7 +32,7 @@ export default function App() {
         <Route exact path="/"  component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
-          <Route exact path="/experience" component={Experience} />
+          {/* <Route exact path="/experience" component={Experience} /> */}
           <Route exact path="/spotify" component={Spotify} />
 
       </Switch>
