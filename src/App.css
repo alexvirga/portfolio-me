@@ -58,7 +58,6 @@
   width: 70vw;
   flex-direction: column;
   justify-content: space;
-  height: 100vh;
   background: white;
   border-right-style: solid;
   border-right-width: 1px;
@@ -236,21 +235,19 @@
 
 .spotify-body-title{
   display: flex;
-  margin-top: 10vh;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-top: 0vh;
+  margin-left: 15%;
+  margin-right: 15%;
   font-family: 'Circular-header';
   font-size: 50px;
   color: rgb(0, 0, 0);
   font-weight: 900;
-  justify-content: center;
+
   
   
 }
 
-.spotify-body-container{
-  background-color: #efefef;
-}
+
 
 .nav-name-spotify {
   font-size: 5vmin;
@@ -262,8 +259,39 @@
   font-family: 'Circular-navname';
 }
 
+.spotify-body-container{
+  background-color: #efefef;
+  display: "flex";
+  align-content: "center";
+  padding-bottom: 30px
+
+
+
+}
+
+.spotify-images{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh
+}
+
+.spotify-images-footer{
+  height: 50px;
+  display: flex;
+  margin-top: 4px; 
+  width: 100%;
+  justify-content: space-evenly
+
+
+}
+
 .spotify-p{
   font-family: "Circular-p";
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 15%
+
 }
 
 
