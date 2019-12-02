@@ -8,7 +8,7 @@ class Experience extends Component {
     return (
     
         <div className="content-page-experience">
-        <h1 className="page-content"> Experience Page</h1>
+        <h1 className="page-content"> Experience Pageeoeoe</h1>
       </div>
 
      
