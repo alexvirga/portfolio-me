@@ -170,7 +170,7 @@ class Projects extends Component {
                 target="blank">
                 Github </a>
 
-              <a href="https://youtu.be/Eu9lid6azYs" target="blank">
+              <a href="https://www.youtube.com/watch?v=q88y9Z08x10" target="blank">
                 Demo
               </a>
             </div>
