@@ -47,9 +47,10 @@ class Projects extends Component {
             style={{
               display: "flex",
               flexDirection: "column",
-              padding: "15px",
+              padding: "10px",
               height: "100%",
-              justifyContent: "center"
+              justifyContent: "center",
+
             }}
           >
             <h1
@@ -62,28 +63,32 @@ class Projects extends Component {
               {" "}
               MapHunt
             </h1>
+
+            <div style={{display: "flex", justifyContent:"center"}}>
             <img
               src="maphunt.png"
               style={{
                 display: "flex",
-                width: "400px",
+                width: "380px",
                 justifyContent: "center"
               }}
             />
+            </div>
             <div
               style={{
                 display: "flex",
                 height: "100%",
-                alignItems: "flex-end",
+                alignItems: "center",
                 flexDirection: "column"
               }}
             >
               <p
                 style={{
+                  paddingTop: "20px",
                   fontFamily: "Circular-p",
                   display: "flex",
-                  width: "400px",
-                  padding: "20px",
+                  width: "300px",
+                  justifyContent: "center",
                   textAlign: "center"
                 }}
               >
@@ -131,7 +136,7 @@ class Projects extends Component {
             style={{
               display: "flex",
               flexDirection: "column",
-              padding: "15px"
+              padding: "10px"
             }}
           >
             <h1
@@ -144,27 +149,36 @@ class Projects extends Component {
               {" "}
               Banter
             </h1>
+
+            <div style={{display: "flex", justifyContent:"center"}}>
+
             <img
               src="Banter.png"
-              style={{ display: "flex", width: "400px", alignSelf: "center" }}
+              style={{ display: "flex", width: "300px", alignSelf: "center" }}
             />
+            </div>
+
+
+
             <div
-              style={{
-                display: "flex",
-                height: "100%",
-                alignItems: "flex-end",
-                flexDirection: "column"
-              }}
-            >
-              <p
-                style={{
-                  fontFamily: "Circular-p",
-                  display: "flex",
-                  width: "400px",
-                  padding: "20px",
-                  textAlign: "center"
-                }}
-              >
+                           style={{
+                            display: "flex",
+                            height: "100%",
+                            alignItems: "center",
+                            flexDirection: "column"
+                          }}
+                        >
+                          <p
+                            style={{
+                              paddingTop: "20px",
+                              fontFamily: "Circular-p",
+                              display: "flex",
+                              width: "300px",
+                              justifyContent: "center",
+                              textAlign: "center"
+                            }}
+                          >
+              
                 {" "}
                 Be in control of your part of the bill. Users join a party using
                 a unique 5 digit code, and can adjust their share of the bill,
@@ -207,7 +221,7 @@ class Projects extends Component {
             style={{
               display: "flex",
               flexDirection: "column",
-              padding: "15px"
+              padding: "10px"
             }}
           >
             <h1
@@ -221,27 +235,34 @@ class Projects extends Component {
               Artwork
             </h1>
 
+            <div style={{display: "flex", justifyContent:"center"}}>
+
             <img
               src="artwork.png"
-              style={{ display: "flex", height: "200px", }}
+              style={{ display: "flex", width: "380px", }}
             />
+            </div>
+
+
             <div
               style={{
                 display: "flex",
-               
-                alignItems: "flex-end",
+                
+                alignItems: "center",
                 flexDirection: "column"
               }}
             >
               <p
                 style={{
+                  paddingTop: "20px",
                   fontFamily: "Circular-p",
                   display: "flex",
-                  width: "400px",
-                  padding: "20px",
+                  width: "300px",
+                  justifyContent: "center",
                   textAlign: "center"
                 }}
               >
+              
                 {" "}
                 Bringing mural-needing businesses and money-needing artists
                 together. ArtWork is a platform for businesses to find the
@@ -254,7 +275,7 @@ class Projects extends Component {
 
             <div style={{display: "flex", justifyContent: "space-evenly", fontFamily: "Circular-links", fontSize: "20px", marginBottom: "20px", fontWeight: "bold"}}>
             <a href="https://github.com/KConlon13/ArtWorkFrontEnd" target="blank">Github</a>
-            <a href="https://www.youtube.com/watch?v=q88y9Z08x10" target="blank">Demo</a>
+            <a href="https://youtu.be/Eu9lid6azYs" target="blank">Demo</a>
             </div>
 
             {/* ------What I used----- */}

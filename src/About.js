@@ -29,7 +29,7 @@ class About extends Component {
 
 
         {/*-------------Photo of me-------------- */}
-        <div style={{width:"100%", display:"flex", justifyContent: "center", paddingBottom: "40px"}}>
+        <div style={{width:"100%", display:"flex", justifyContent: "center", paddingBottom: "30px"}}>
           <img
               style={{ marginTop: "20px",height: "200px", width: "200px", borderRadius: "50%" }}
               src='./IMG_0650.png' />
@@ -45,7 +45,7 @@ class About extends Component {
 
 
         <div>
-        <h2 style={{fontFamily: "Circular-header", fontSize: "20px", marginBotton: "0px"}}> Front-end</h2>
+        <h2 style={{fontFamily: "Circular-header", fontSize: "20px", marginBotton: "10px"}}> Front-end</h2>
         <ul style={{listStyle: "none"}}>
           <li> Javascript</li>
           <li> React.js</li>
