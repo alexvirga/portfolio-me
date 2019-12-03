@@ -10,7 +10,7 @@ class Spotify extends Component {
         <div
           style={{
             height: "80px",
-            backgroundColor: "black",
+            backgroundColor: "#191414",
             display: "flex",
             justifyItems: "center"
           }}
@@ -65,7 +65,7 @@ class Spotify extends Component {
             After moving into the professional world, that balance was thrown
             off. I was left searching for that creative, yet analytical part of
             my life again. I missed waking up and counting down the minutes
-            until I could get back to work. I quit my job and began coding 12+ hours a day... I loved every second of it. Becoming a developer has given me
+            until I could get back to work. I quit my job and began coding 12+ hours a day, and I loved every second of it. Becoming a developer has given me
             the tools to succeed not only in my professional life, but my
             personal life as well.
             <br />

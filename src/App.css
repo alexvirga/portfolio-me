@@ -381,12 +381,12 @@
   flex-direction: column;
   justify-content: space;
   height: 100vh;
-  background: rgb(0, 0, 0);
+  background: #191414;
   color: rgb(255, 255, 255);
   align-items: center;
   border-right-style: solid;
   border-right-width: 7px;
-  border-color: rgba(0, 0, 0, 0.76);
+  border-color: #191414;
   font-family: 'Nunito', sans-serif;
 }
 
@@ -433,7 +433,7 @@
   margin-right: 15%;
   font-family: 'Circular-header';
   font-size: 50px;
-  color: rgb(0, 0, 0);
+  color:#191414;
   font-weight: 900;
 }
 
@@ -469,7 +469,8 @@
   justify-content: left;
   flex-wrap: wrap;
   padding-left: 20px;
-  padding-right: 20px
+  padding-right: 20px;
+  padding-bottom: 20px
 }
 
 
