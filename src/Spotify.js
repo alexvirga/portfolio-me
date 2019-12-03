@@ -87,6 +87,7 @@ class Spotify extends Component {
             fontSize: "18px",
             fontWeight: "700",
             marginTop: "9px",
+            paddingTop: "15px",
             marginBottom: "20px"
           }}
         >

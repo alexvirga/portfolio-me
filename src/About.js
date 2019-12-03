@@ -29,7 +29,7 @@ class About extends Component {
 
 
         {/*-------------Photo of me-------------- */}
-        <div style={{width:"100%", display:"flex", justifyContent: "center", paddingBottom: "30px"}}>
+        <div style={{width:"100%", display:"flex", justifyContent: "center", paddingBottom: "40px"}}>
           <img
               style={{ marginTop: "20px",height: "200px", width: "200px", borderRadius: "50%" }}
               src='./IMG_0650.png' />
