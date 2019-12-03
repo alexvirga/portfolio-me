@@ -100,7 +100,7 @@ class Spotify extends Component {
 
         <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
-              style={{ height: "80px", marginLeft: "3px" }}
+              style={{ height: "70px", marginLeft: "3px" }}
               src="iconfinder_rgb_1054993.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -113,7 +113,7 @@ class Spotify extends Component {
 
             <div style={{display: "flex", alignItems: "center", flex: "1"}}>
           <img
-              style={{ height: "80px", marginLeft: "3px", display: "flex" }}
+              style={{ height: "70px", marginLeft: "3px", display: "flex" }}
               src="iconfinder_door_1055069.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -126,7 +126,7 @@ class Spotify extends Component {
 
             <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
-              style={{ height: "80px", marginLeft: "3px" }}
+              style={{ height: "70px", marginLeft: "3px" }}
               src="iconfinder_ufo_1054946.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -138,7 +138,7 @@ class Spotify extends Component {
 
             <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
-              style={{ height: "80px", marginLeft: "3px" }}
+              style={{ height: "70px", marginLeft: "3px" }}
               src="iconfinder_bookshelf_1055107.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
