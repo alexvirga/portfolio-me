@@ -95,12 +95,12 @@ class Spotify extends Component {
           What's important
         </h1>
 
-        <div className="spotify-images-footer">
+        <div className="spotify-footer-container">
 
 
-
+        <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
-              style={{ height: "80%", marginLeft: "3px" }}
+              style={{ height: "80px", marginLeft: "3px" }}
               src="iconfinder_rgb_1054993.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -108,12 +108,12 @@ class Spotify extends Component {
             
             <p style={{fontFamily: "Circular-p"}}> Let's all get along</p>
             </div>
-     
+            </div>
 
 
-      
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
           <img
-              style={{ height: "80%", marginLeft: "3px" }}
+              style={{ height: "80px", marginLeft: "3px", display: "flex" }}
               src="iconfinder_door_1055069.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -121,12 +121,12 @@ class Spotify extends Component {
             
             <p style={{fontFamily: "Circular-p"}}> Made for everyone </p>
             </div>
+            </div>
 
 
-
-
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
-              style={{ height: "80%", marginLeft: "3px" }}
+              style={{ height: "80px", marginLeft: "3px" }}
               src="iconfinder_ufo_1054946.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -134,11 +134,11 @@ class Spotify extends Component {
             
             <p style={{fontFamily: "Circular-p"}}> In a good way </p>
             </div>
+            </div>
 
-
-
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
             <img
-              style={{ height: "80%", marginLeft: "3px" }}
+              style={{ height: "80px", marginLeft: "3px" }}
               src="iconfinder_bookshelf_1055107.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -146,7 +146,7 @@ class Spotify extends Component {
             
             <p style={{fontFamily: "Circular-p"}}> At work, at home, wherever</p>
             </div>
-
+            </div>
 
 
           
