@@ -362,107 +362,112 @@
 
 
 
-/* ---------------SPOTIFY PAGE --------------------*/
+/* ---------------mikmak PAGE --------------------*/
 
 
-.content-page-spotify {
+.content-page-mikmak {
   display: flex;
   width: 70vw;
   flex-direction: column;
   justify-content: space;
-  background: white;
+  background-color: hsla(0,0%,95%,.42);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   border-right-style: solid;
   border-right-width: 1px;
 }
 
-.nav-container-spotify {
+.nav-container-mikmak {
   display: flex;
   width: 30vw;
   flex-direction: column;
   justify-content: space;
   height: 100vh;
-  background: #191414;
-  color: rgb(255, 255, 255);
+  color: black;
   align-items: center;
   border-right-style: solid;
   border-right-width: 7px;
   border-color: #191414;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: hsla(0,0%,95%,.42);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 
-.nav-style-spotify {
+.nav-style-mikmak {
   display: flex;
-  color: white;
+  color: black;
   text-decoration: none;
   transition-duration: 0.3s;
 }
 
-.nav-style-spotify:hover {
+.nav-style-mikmak:hover {
   transform: scale(1.2);
   text-decoration: none;
+  color: #26b196
 }
 
 
-.spotify-header-container{
-  background-color: rgb(25, 230, 140);
+.mikmak-header-container{
   display: flex;
   justify-content: center;
+
 }
-.spotify-header-title{
+.mikmak-header-title{
   margin-top: 5vh;
   margin-bottom: 5vh;
   margin-left: 5px;
   margin-right: 5px;
-  font-family: 'Circular-header';
-  font-size: 50px;
-  color: white;
-  font-weight: 900;
   align-items: center;
   justify-content: center;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 0 1px 2px rgba(0,0,0,.18);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
 }
 
-.spotify-header-container {
+.mikmak-header-container {
   justify-content: center;
 }
 
-.spotify-body-title{
+.mikmak-body-title{
   display: flex;
   margin-top: 0vh;
   margin-left: 15%;
   margin-right: 15%;
-  font-family: 'Circular-header';
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   color:#191414;
   font-weight: 900;
 }
 
-.nav-name-spotify {
+.nav-name-mikmak {
   font-size: 5vmin;
   display: flex;
   flex: 1;
   width: 100%;
   padding-top: 7vh;
   justify-content: center;
-  font-family: 'Circular-navname';
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
-.spotify-body-container{
-  background-color: #efefef;
+.mikmak-body-container{
+
+  font-family: 'Work Sans', sans-serif;
   display: "flex";
   align-content: "center";
-  padding-bottom: 30px
+  padding-bottom: 20px
 }
 
-.spotify-images{
+.mikmak-images{
   height: 70px;
   display: flex;
   justify-content: center;
   margin-top: 3vh;
 }
 
-.spotify-footer-container{
+.mikmak-footer-container{
  
   display: flex;
   margin-top: 4px; 
@@ -475,11 +480,14 @@
 
 
 
-.spotify-p{
-  font-family: "Circular-p";
+.mikmak-p{
+  font-family: "Work Sans",sans-serif;
   align-content: center;
   margin-left: 15%;
-  margin-right: 15%
+  margin-right: 15%;
+  padding-top: 15px;
+  margin-bottom: 0px
+  
 }
 
 

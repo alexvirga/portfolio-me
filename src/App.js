@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
-import Spotify from "./Spotify";
+import MikMak from "./MikMak";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import {useTransition, animated} from 'react-spring';
@@ -34,7 +34,7 @@ export default function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           {/* <Route exact path="/experience" component={Experience} /> */}
-          <Route exact path="/spotify" component={Spotify} />
+          <Route exact path="/MikMak" component={MikMak} />
 
       </Switch>
     </animated.div>

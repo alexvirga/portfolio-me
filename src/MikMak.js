@@ -3,14 +3,14 @@ import React, { Component } from "react";
 import "./App.css";
 import { useLocation } from "react-router-dom";
 
-class Spotify extends Component {
+class MikMak extends Component {
   render() {
     return (
-      <div className="content-page-spotify">
+      <div className="content-page-mikmak">
         <div
           style={{
             height: "80px",
-            backgroundColor: "#191414",
+        
             display: "flex",
             justifyItems: "center"
           }}
@@ -30,49 +30,41 @@ class Spotify extends Component {
                 height: "60px",
                 width: "140px"
               }}
-              src="kisspng-logo-spotify-issuu-soundcloud-spotify-logo-5b2a6589937ea5.8739811215295051616042.png"
+              src="mikmak-gradient-logo-2.b9228d23.png"
             />
           </div>
         </div>
 
-        <div className="spotify-header-container">
-          <h1 className="spotify-header-title"> Why MikMak? </h1>
+        <div className="mikmak-header-container">
+          <h1 className="mikmak-header-title"> Why MikMak? </h1>
         </div>
 
-        <div className="spotify-body-container">
-          <div className="spotify-images">
+        <div className="mikmak-body-container">
+          <div className="mikmak-images">
             <img
               style={{ height: "70%", marginRight: "3px" }}
               src="./iconfinder_dev_1055073.png"
             />
             <img
               style={{ height: "70%", marginLeft: "3px" }}
-              src="./iconfinder_volume_1054938.png"
+              src="iconfinder_window_512536.png"
             />
           </div>
-          <h1 className="spotify-body-title"> Software meets Audio</h1>
+          <h1 className="mikmak-body-title"> Media meets Software</h1>
 
-          <p className="spotify-p">
-            My path to becoming a software engineer was a bit unusual. From a
-            young age, I began experimenting with audio engineering. As I
-            continued my education, audio synthesis and production were my
-            creative outlets that helped me balance my aptitude for math,
-            analytics and business with my love for creating. It was a textbook
-            struggle between left-brain / right-brain. I wasn’t satisfied with
-            just one side.
+          <p className="mikmak-p">
+            I didn't leave the advertising industry on the best note. Despite the incredible resources and experience I gained, working at the worlds largest ad agency had its limitations. With over $100 million in spend for my accounts alone, there were no dashboards or reporting tools to be found. Most of my time was spent generating reports by scratch in excel. 
             <br />
             <br />
-            After moving into the professional world, that balance was thrown
-            off. I was left searching for that creative, yet analytical part of
-            my life again. I missed waking up and counting down the minutes
-            until I could get back to work. I quit my job and began coding 12+ hours a day, and I loved every second of it. Becoming a developer has given me
-            the tools to succeed not only in my professional life, but my
-            personal life as well.
+            <p style={{fontWeight: "bold", fontSize: "20px"}}>This began my journey into software engineering and data analytics.</p>
+           
+            For months, I would arrive at the office at 7:45am, and take classes at night to learn data analytics. I began building dashboards in Tableau, writing custom SQL queries, and automating my reports in excel. After attempting to implement these skills and tangling myself in red-tape, I decided to leave and immerse myself in the world of software engineering. I began coding 12+ hours a day, and I loved every second of it. 
             <br />
             <br />
-            <h3 style={{ fontFamily: "Circular-header", marginBottom: "20px" }}>
-              My passion has become my profession, and I couldn’t be happier.
-            </h3>
+            <p style={{fontWeight: "bold", fontSize: "20px"}}>Now, I'm reaching out to MikMak with a purpose.</p> A quality product shouldn't only satisfy the client. A quality product provides value to the client, consumer, vendor, and everyone between. MikMak is just that. I became a software engineer to design the systems and platforms "old" me wished for. That is why I am reaching out to MikMak.
+            <br />
+            <br />
+          
           </p>
         </div>
 
@@ -95,7 +87,7 @@ class Spotify extends Component {
           What's important
         </h1>
 
-        <div className="spotify-footer-container">
+        <div className="mikmak-footer-container">
 
 
         <div style={{display: "flex", alignItems: "center", flex: "1"}}>
@@ -161,4 +153,4 @@ class Spotify extends Component {
   }
 }
 
-export default Spotify;
+export default MikMak;
