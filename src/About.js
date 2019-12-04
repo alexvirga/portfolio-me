@@ -18,6 +18,10 @@ class About extends Component {
         <p className="header-subtitle"> I enjoy making pretty web pages</p>
         </div>
 
+       
+
+
+
 
         {/*-------------Introduction-------------- */}
   
