@@ -60,7 +60,7 @@ class About extends Component {
         <ul style={{listStyle: "none",textAlign: "center"}}>
           <li> Ruby</li>
           <li> Rails</li>
-          <li> SQL</li>
+          <li> SQL (Database)</li>
         </ul>
         </div>
 

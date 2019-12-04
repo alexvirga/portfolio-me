@@ -10,28 +10,37 @@ class MikMak extends Component {
         <div
           style={{
             height: "80px",
-        
+            boxShadow: "0 2px 2px rgba(0,0,0,.09)",
             display: "flex",
-            justifyItems: "center"
+            justifyItems: "center",
+            flexDirection: "row",
+            
+            backgroundColor: "white"
           }}
         >
           <div
             style={{
               height: "80px",
               width: "20%",
-              display: "flex:",
-              justifyItems: "center"
+              display: "flex",
+              justifyItems: "center",
+              flexDirection: "row"
             }}
           >
             <img
               style={{
+                display: "flex",
                 marginLeft: "4%",
                 paddingTop: "10px",
                 height: "60px",
-                width: "140px"
+                
               }}
               src="mikmak-gradient-logo-2.b9228d23.png"
             />
+            <div style={{display: "flex"}}>
+            <div class="patent-badge">Application Pending</div>
+
+            </div>
           </div>
         </div>
 
