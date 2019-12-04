@@ -36,7 +36,7 @@ class Spotify extends Component {
         </div>
 
         <div className="spotify-header-container">
-          <h1 className="spotify-header-title"> Why Spotify? </h1>
+          <h1 className="spotify-header-title"> Why MikMak? </h1>
         </div>
 
         <div className="spotify-body-container">
