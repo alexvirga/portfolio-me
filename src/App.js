@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import Nav from "./Nav";
 import About from "./About";
+import Spotify from "./Spotify";
 import Projects from "./Projects";
 import Experience from "./Experience";
 import {useTransition, animated} from 'react-spring';
@@ -19,6 +20,7 @@ export default function App() {
     
   })
   
+  
   return (
     
     <div className="app-align">
@@ -28,9 +30,12 @@ export default function App() {
     <animated.div key={key} style={props} className="animated-div">
       <Switch location={location}>
         <Route exact path="/"  component={About} />
+        <Route exact path="/portfolio"  component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
-          <Route exact path="/experience" component={Experience} />
+          {/* <Route exact path="/experience" component={Experience} /> */}
+          <Route exact path="/spotify" component={Spotify} />
+
       </Switch>
     </animated.div>
     

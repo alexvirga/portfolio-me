@@ -8,6 +8,7 @@
 
 .app-align {
   display: flex;
+  height: 100vh
 }
 
 .content-page {
@@ -20,27 +21,219 @@
   border-right-style: solid;
   border-right-width: 3px;
 }
-.content-page-projects {
+
+/* ---------------ABOUT PAGE --------------------*/
+
+
+.about-page {
+  
   display: flex;
-  width: 70vw;
   flex-direction: column;
-  justify-content: space;
-  height: 100vh;
-  background: rgb(234, 228, 220);
+  width: 70vw;
+  border-right-style: solid;
+  border-right-width: 1px;
+
+}
+
+
+.about-page-content-header {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: "Circular-header";
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.header-subtitle{
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  justify-content: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-family: "Circular-p";
+  font-size: 15px;
+}
+
+
+.about-header-container{
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: column;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  background-color: rgb(8, 141, 250);
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-page-body-header {
+  font-family: 'Circular-header';
+  color: black;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center
+}
+
+.about-page-p{
+  font-family: "Circular-p";
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.about-page-skills-container{
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  padding-top: 10px;
+
+}
+
+.about-page-skills-header{
+  font-family: 'Circular-header';
+  color: black;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  justify-content: center;
+  font-size: 20px;
+  padding-left: 20px;
+  background-color: white;
+  text-align: center
+}
+/* ---------------PROJECTS PAGE --------------------*/
+
+
+
+
+.projects-page {
+  
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
   border-right-style: solid;
   border-right-width: 1px;
 }
 
-.content-page-about {
+
+.projects-page-content-header {
   display: flex;
-  width: 70vw;
-  flex-direction: column;
-  justify-content: space;
-  height: 100vh;
-  background: rgb(220, 227, 234);
-  border-right-style: solid;
-  border-right-width: 1px;
+  margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  color: rgb(23, 0, 87);
+  font-family: "Circular-header";
+  padding-left: 20px;
+  padding-right: 20px
 }
+
+.projects-header-subtitle{
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  justify-content: center;
+  width: 100%;
+  color: rgb(23, 0, 87);
+  font-family: "Circular-p";
+  font-size: 15px;
+}
+
+
+.projects-header-container{
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: column;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-page-body-header {
+  font-family: 'Circular-header';
+  color: black;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.projects-page-p{
+  font-family: "Circular-p";
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+}
+
+.projects-show-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  background-color: #efefef;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+  justify-content: center;
+  align-items: center
+}
+
+.project-card-header {
+  font-family: "Circular-header";
+  display: flex;
+  justify-content: "center"
+}
+
+.projects-demo-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Circular-links";
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  width: 50%
+}
+
+.project-img {
+  display: flex;
+  width: 20vw;
+  min-width: 200px;
+  justify-content: center
+}
+
+.project-demo-p {
+  padding-top: 20px;
+  font-family: "Circular-p";
+  display: flex;
+  width: 20vw;
+  min-width: 200px;
+  justify-content: center;
+  text-align: center
+}
+
+
+
+
+/* ---------------EXPERIENCE PAGE --------------------*/
+
 
 .content-page-experience {
   display: flex;
@@ -52,19 +245,16 @@
   border-right-style: solid;
   border-right-width: 1px;
 }
-.page-content {
-  margin-top: 4vh;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  height: 100%;
-  align-items: center;
-  color: rgba(0, 0, 0, 0.61);
-}
+
+
+
+/* ---------------NAV PAGE --------------------*/
+
 
 .animated-div {
   height: 100%;
   position: absolute;
+  overflow: scroll;
 }
 
 .nav-container {
@@ -72,7 +262,7 @@
   width: 30vw;
   flex-direction: column;
   justify-content: space;
-  height: 100vh;
+  height: 100%;
   background: rgb(250, 250, 250);
   color: rgba(0, 0, 0, 0.61);
   align-items: center;
@@ -83,13 +273,13 @@
 
 .nav-style {
   display: flex;
-  color: rgba(0, 0, 0, 0.651);
+  color: rgba(0, 0, 0, 0.76);
   text-decoration: none;
   transition-duration: 0.3s;
 }
 
 .nav-style:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   text-decoration: none;
 }
 
@@ -101,8 +291,10 @@
   font-size: 5vmin;
   display: flex;
   flex: 1;
-  height: 25vh;
-  margin-top: 5vh;
+  width: 100%;
+  padding-top: 7vh;
+  justify-content: center;
+  text-align: center;
 }
 
 .nav-links {
@@ -110,15 +302,15 @@
   flex: 1;
   flex-direction: column;
   list-style: none;
-  height: 30vh;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
   width: 100%;
   overflow: hidden;
-  font-size: 3vmin;
-  margin: 20px;
-
+  font-size: 3.7vmin;
+  
+  padding: 20px;
+  text-align: center;
 }
 
 .socials {
@@ -127,9 +319,10 @@
   margin-top: 5vh;
   width: 100%;
   align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 5vh;
-
+  justify-content: space-evenly;
+  padding-bottom: 8vh;
+  padding-left: 10%;
+  padding-right: 10%
 }
 
 .icon-container{
@@ -138,8 +331,8 @@
 }
 
 .icon {
-  width:50%;
-  height: 50%;
+  width:4.5vh;
+  height: 4.5vh;
   transition-duration: 0.3s;
 }
 .icon:hover {
@@ -159,12 +352,134 @@
   }
 
   30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-2px, 0, 0);
   }
 
   40%, 60% {
-    transform: translate3d(4px, 0, 0);
+    transform: translate3d(2px, 0, 0);
   }
+}
+
+
+
+/* ---------------SPOTIFY PAGE --------------------*/
+
+
+.content-page-spotify {
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+  justify-content: space;
+  background: white;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.nav-container-spotify {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  justify-content: space;
+  height: 100vh;
+  background: #191414;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  border-right-style: solid;
+  border-right-width: 7px;
+  border-color: #191414;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.nav-style-spotify {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.nav-style-spotify:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+
+.spotify-header-container{
+  background-color: rgb(25, 230, 140);
+  display: flex;
+  justify-content: center;
+}
+.spotify-header-title{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotify-header-container {
+  justify-content: center;
+}
+
+.spotify-body-title{
+  display: flex;
+  margin-top: 0vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Circular-header';
+  font-size: 50px;
+  color:#191414;
+  font-weight: 900;
+}
+
+.nav-name-spotify {
+  font-size: 5vmin;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  padding-top: 7vh;
+  justify-content: center;
+  font-family: 'Circular-navname';
+  text-align: center;
+}
+
+.spotify-body-container{
+  background-color: #efefef;
+  display: "flex";
+  align-content: "center";
+  padding-bottom: 30px
+}
+
+.spotify-images{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.spotify-footer-container{
+ 
+  display: flex;
+  margin-top: 4px; 
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px
+}
+
+
+
+.spotify-p{
+  font-family: "Circular-p";
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 15%
 }
 
 
