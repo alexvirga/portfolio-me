@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6dcf2890a7c8e9fc9b82c64384fed7a",
+    "revision": "4104ea9446476c6bae4e440e9cf89886",
     "url": "/portfolio-mikmak/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-mikmak/static/css/2.7aa6f31f.chunk.css"
   },
   {
-    "revision": "097272175636e3528069",
-    "url": "/portfolio-mikmak/static/css/main.1c5418bb.chunk.css"
+    "revision": "8857bff26218012c64f8",
+    "url": "/portfolio-mikmak/static/css/main.d0e4cba5.chunk.css"
   },
   {
     "revision": "59353af90249ffa35150",
     "url": "/portfolio-mikmak/static/js/2.5effb3fe.chunk.js"
   },
   {
-    "revision": "097272175636e3528069",
-    "url": "/portfolio-mikmak/static/js/main.62bebf71.chunk.js"
+    "revision": "8857bff26218012c64f8",
+    "url": "/portfolio-mikmak/static/js/main.8df1c444.chunk.js"
   },
   {
     "revision": "4ebe912f18d2052ad42e",
