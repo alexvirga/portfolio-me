@@ -367,12 +367,12 @@
 
 
 .content-page-mikmak {
+
   display: flex;
   width: 70vw;
   flex-direction: column;
   justify-content: space;
-  background-color: rgba(223, 223, 223, 0.42);
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background: rgba(223, 223, 223, 0.42);
   border-right-style: solid;
   border-right-width: 1px;
 }
@@ -439,7 +439,6 @@
   margin-left: 15%;
   margin-right: 15%;
   font-family: "Raleway", sans-serif;
-  font-size: 50px;
   color:#191414;
   font-weight: 900;
 }

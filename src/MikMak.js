@@ -14,19 +14,11 @@ class MikMak extends Component {
             display: "flex",
             justifyItems: "center",
             flexDirection: "row",
-            
+            flexWrap: "wrap",
             backgroundColor: "white"
           }}
         >
-          <div
-            style={{
-              height: "80px",
-              width: "20%",
-              display: "flex",
-              justifyItems: "center",
-              flexDirection: "row"
-            }}
-          >
+
             <img
               style={{
                 display: "flex",
@@ -40,7 +32,7 @@ class MikMak extends Component {
             <div style={{display: "flex"}}>
             <div class="patent-badge">Application Pending</div>
 
-            </div>
+            
           </div>
         </div>
 

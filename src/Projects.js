@@ -21,7 +21,8 @@ class Projects extends Component {
                 marginTop: "20px",
                 height: "200px",
                 width: "300px",
-                borderRadius: "50%"
+                borderRadius: "50%",
+              
               }}
               src="./transparentimg.png"
             />
