@@ -62,7 +62,7 @@ class MikMak extends Component {
           <h1 className="mikmak-body-title"> Media meets Software</h1>
 
           <p className="mikmak-p">
-            I didn't leave the advertising industry on the best note. Despite the incredible resources and experience I gained, working at the worlds largest ad agency had its limitations. With over $100 million in spend for my accounts alone, there were no dashboards or reporting tools to be found. Most of my time was spent generating reports by scratch in excel. 
+            I left my job in advertising in May 2019. Despite the incredible resources and experience I gained, working at the worlds largest ad agency had its limitations. With over $70 million in spend for my accounts alone, there were no dashboards or reporting tools to be found. Most of my time was spent generating reports by scratch in excel. 
             <br />
             <br />
             <p style={{fontWeight: "bold", fontSize: "20px"}}>This began my journey into software engineering and data analytics.</p>
