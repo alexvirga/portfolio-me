@@ -50,7 +50,7 @@ class About extends Component {
 
 
         <div>
-        <h2 style={{fontFamily: "Circular-header", fontSize: "20px", marginBotton: "10px"}}> Front-end</h2>
+        <h2 style={{fontFamily: "Circular-header", fontSize: "20px", textAlign: "center", marginBotton: "0px"}}> Front-end</h2>
         <ul style={{listStyle: "none", textAlign: "center"}}>
           <li> Javascript</li>
           <li> React.js</li>
@@ -60,8 +60,8 @@ class About extends Component {
         </ul>
         </div>
 
-        <div style={{display: "flex", justifyItems: "center", flexDirection: "column"}}>
-        <h2 style={{fontFamily: "Circular-header", fontSize: "20px", marginBotton: "0px"}}> Back-end</h2>
+        <div>
+        <h2 style={{fontFamily: "Circular-header", fontSize: "20px", textAlign: "center", marginBotton: "0px"}}> Back-end</h2>
         <ul style={{listStyle: "none",textAlign: "center"}}>
           <li> Ruby</li>
           <li> Rails</li>
@@ -79,7 +79,7 @@ class About extends Component {
         </ul>
         </div>
         </div>
-
+       
         <h1
           style={{
             fontFamily: "Circular-links",
@@ -89,9 +89,12 @@ class About extends Component {
             fontWeight: "700",
             marginTop: "9px",
             paddingTop: "15px",
-            marginBottom: "20px"
+            marginBottom: "0px",
+            backgroundColor: "#efefef"
           }}
         >
+
+          
           {" "}
           What's important
         </h1>
@@ -127,8 +130,8 @@ class About extends Component {
 
 
             <div style={{display: "flex", alignItems: "center", flex: "1"}}>
-            <img
-              style={{ height: "70px", marginLeft: "3px" }}
+          <img
+              style={{ height: "70px", marginLeft: "3px", display: "flex" }}
               src="iconfinder_ufo_1054946.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
@@ -139,8 +142,8 @@ class About extends Component {
             </div>
 
             <div style={{display: "flex", alignItems: "center", flex: "1"}}>
-            <img
-              style={{ height: "70px", marginLeft: "3px" }}
+          <img
+              style={{ height: "70px", marginLeft: "3px", display: "flex" }}
               src="iconfinder_bookshelf_1055107.png"
             />
             <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
