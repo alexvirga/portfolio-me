@@ -2,7 +2,7 @@
   "name": "portfolio-mikmak",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexvirga.github.io/portfolio-mikmak/",
+  "homepage": "http://alexvirga.me/",
   "dependencies": {
     "bootstrap": "^4.4.0",
     "react": "^16.12.0",

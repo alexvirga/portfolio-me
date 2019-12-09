@@ -45,6 +45,7 @@ class About extends Component {
         <h1 className="about-page-skills-header"> Here's what I'm good at.</h1>
 
 
+
       <div className="about-page-skills-container">
 
 
@@ -77,16 +78,78 @@ class About extends Component {
           <li> Bootstrap </li>
         </ul>
         </div>
-
-
-
-
-
-
-      
-
         </div>
 
+        <h1
+          style={{
+            fontFamily: "Circular-links",
+            display: "flex",
+            justifyContent: "center",
+            fontSize: "18px",
+            fontWeight: "700",
+            marginTop: "9px",
+            paddingTop: "15px",
+            marginBottom: "20px"
+          }}
+        >
+          {" "}
+          What's important
+        </h1>
+
+        
+        <div className="mikmak-footer-container">
+
+
+        <div style={{display: "flex", alignItems: "center", flex: "1"}}>
+            <img
+              style={{ height: "70px", marginLeft: "3px" }}
+              src="iconfinder_rgb_1054993.png"
+            />
+            <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
+            <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Inclusive</p>
+            
+            <p style={{fontFamily: "Circular-p"}}> Let's all get along</p>
+            </div>
+            </div>
+
+
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
+          <img
+              style={{ height: "70px", marginLeft: "3px", display: "flex" }}
+              src="iconfinder_door_1055069.png"
+            />
+            <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
+            <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Accessibility</p>
+            
+            <p style={{fontFamily: "Circular-p"}}> Made for everyone </p>
+            </div>
+            </div>
+
+
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
+            <img
+              style={{ height: "70px", marginLeft: "3px" }}
+              src="iconfinder_ufo_1054946.png"
+            />
+            <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
+            <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Different</p>
+            
+            <p style={{fontFamily: "Circular-p"}}> In a good way </p>
+            </div>
+            </div>
+
+            <div style={{display: "flex", alignItems: "center", flex: "1"}}>
+            <img
+              style={{ height: "70px", marginLeft: "3px" }}
+              src="iconfinder_bookshelf_1055107.png"
+            />
+            <div style={{display: "flex", flexDirection: "column", marginLeft: "3px"}}>
+            <p style={{fontFamily: "Circular-p", fontWeight:"700", marginBottom: "1px"}}> Learn</p>
+            
+            <p style={{fontFamily: "Circular-p"}}> At work, at home, wherever</p>
+            </div>
+            </div>
+</div>
 
 
 

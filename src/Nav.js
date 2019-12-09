@@ -46,9 +46,9 @@ class Nav extends Component {
           {/* <NavLink className={this.textChange()} to="/experience">
             <li style={{ padding: "5px" }}>Experience</li>
           </NavLink> */}
-          <Link className={this.textChange()} to="/MikMak">
+          {/* <Link className={this.textChange()} to="/MikMak">
             <li style={{ padding: "5px" }}>MikMak</li>
-          </Link>
+          </Link> */}
         </div>
         <div className="socials">
           <a
