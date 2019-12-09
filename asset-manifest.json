@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-mikmak/static/css/main.d0e4cba5.chunk.css",
-    "main.js": "/portfolio-mikmak/static/js/main.8df1c444.chunk.js",
-    "main.js.map": "/portfolio-mikmak/static/js/main.8df1c444.chunk.js.map",
-    "runtime-main.js": "/portfolio-mikmak/static/js/runtime-main.03e089ab.js",
-    "runtime-main.js.map": "/portfolio-mikmak/static/js/runtime-main.03e089ab.js.map",
-    "static/css/2.7aa6f31f.chunk.css": "/portfolio-mikmak/static/css/2.7aa6f31f.chunk.css",
-    "static/js/2.5effb3fe.chunk.js": "/portfolio-mikmak/static/js/2.5effb3fe.chunk.js",
-    "static/js/2.5effb3fe.chunk.js.map": "/portfolio-mikmak/static/js/2.5effb3fe.chunk.js.map",
-    "index.html": "/portfolio-mikmak/index.html",
-    "precache-manifest.9031cff4a99148db9e9aa18c1ffc1abd.js": "/portfolio-mikmak/precache-manifest.9031cff4a99148db9e9aa18c1ffc1abd.js",
-    "service-worker.js": "/portfolio-mikmak/service-worker.js",
-    "static/css/2.7aa6f31f.chunk.css.map": "/portfolio-mikmak/static/css/2.7aa6f31f.chunk.css.map",
-    "static/css/main.d0e4cba5.chunk.css.map": "/portfolio-mikmak/static/css/main.d0e4cba5.chunk.css.map",
-    "static/media/index.css": "/portfolio-mikmak/static/media/CircularSpUIm5-Book.bdd2d58b.otf"
+    "main.css": "/static/css/main.9aed9197.chunk.css",
+    "main.js": "/static/js/main.02906c9d.chunk.js",
+    "main.js.map": "/static/js/main.02906c9d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8090eec7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8090eec7.js.map",
+    "static/css/2.7aa6f31f.chunk.css": "/static/css/2.7aa6f31f.chunk.css",
+    "static/js/2.cc0390e1.chunk.js": "/static/js/2.cc0390e1.chunk.js",
+    "static/js/2.cc0390e1.chunk.js.map": "/static/js/2.cc0390e1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.91e3c1a4dea952799b1db96e0f4874b6.js": "/precache-manifest.91e3c1a4dea952799b1db96e0f4874b6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7aa6f31f.chunk.css.map": "/static/css/2.7aa6f31f.chunk.css.map",
+    "static/css/main.9aed9197.chunk.css.map": "/static/css/main.9aed9197.chunk.css.map",
+    "static/media/index.css": "/static/media/CircularSpUIm5-Book.bdd2d58b.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.03e089ab.js",
+    "static/js/runtime-main.8090eec7.js",
     "static/css/2.7aa6f31f.chunk.css",
-    "static/js/2.5effb3fe.chunk.js",
-    "static/css/main.d0e4cba5.chunk.css",
-    "static/js/main.8df1c444.chunk.js"
+    "static/js/2.cc0390e1.chunk.js",
+    "static/css/main.9aed9197.chunk.css",
+    "static/js/main.02906c9d.chunk.js"
   ]
 }
